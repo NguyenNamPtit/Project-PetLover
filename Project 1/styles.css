@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+}
+.header-top{
+  display: flex;
+  justify-content:space-between;
+  padding: 1.6rem 4.8rem;
+}
+.header-top-1{
+  font-size: 3.6rem;
+  font-weight:700 ;
+}
+.header-top-info-1{
+  color: orangered;
+  
+}
+.header-top-info{
+  display: flex;
+  text-align: center;
+}
+h1{
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+h2{
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+h3{
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.header-top-info-2,.header-top-info-3,.header-top-info-4{
+  margin:0 1.8rem;
+}
+.header-top-info-3,.header-top-info-4{
+  border-left: 1px solid #ccc;
+  padding-left: 2.8rem;
+}
+.header-bottom{
+  padding: 0 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.header-bottom-nav{
+  display: inline-block;
+  padding: 3rem 2rem;
+  margin-left: 0;
+  display: flex;
+  
+}
+.header-bottom-nav-1{
+  display: inline-block;
+  background-color: orangered;
+  padding: 3rem 2rem;
+  color: black;
+  margin-right: 0.3rem;
+}
+.header-bottom-1{
+  display: flex
+}
+.header-bottom-nav:hover{
+  background-color: orangered;
+  color: black;
+}
+.header-bottom-btn{
+  background-color: orangered;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+}
+.header-bottom-btn:hover{
+  color: black;
+  background-color: orange;
+}
+.header-bottom-btm{
+  margin-top: 1.8rem;
+}
+.hero-section{
+  background-image: url(./src/images/hero.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+h4{
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+h5{
+  font-size: 7.2rem;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+h6{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+} 
+.hero-section-info{
+  background-color: rgba(0, 0, 0, 0.12);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.hero-section-btn{
+  margin-top: 5.4rem;
+}
+.hero-section-btn-1{
+  background-color: #ed6436;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  border: 1px solid #ed6436;
+  margin-right: 0.8rem;
+}
+.hero-section-btn-1:hover{
+  background-color: #ec5826;
+}
+.hero-section-btn-2{
+  background-color: #65c178;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  border: 1px solid #65c178;
+}
+.hero-section-btn-2:hover{
+  background-color: #59bc6d;
+}
+
