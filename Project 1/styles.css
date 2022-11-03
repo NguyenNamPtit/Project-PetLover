@@ -147,4 +147,82 @@ h6{
 .hero-section-btn-2:hover{
   background-color: #59bc6d;
 }
+.hero{
+  background-color: #f2f2f4;
+}
+.hero-contain{
+  display: grid;
+    grid-template-columns: 5fr 7fr;
+    column-gap: 6rem;
+    max-width: 110rem;
+    margin: 0 auto;
+    
+}
+.contain-info{
+  background-color: #ed6436;
+  display: flex;
+  flex-direction: column;
+  padding: 12rem 4.8rem;
+  justify-content: center;
+}
+.contain-input-1,.contain-input-2,.contain-input-3,.contain-input-4{
+  padding: 1.2rem 2.4rem;
+  margin-bottom:1.6rem ;
+  border-radius: 6px;
+}
+h7{
+  font-size: 2.4rem;
+    color: #65c178;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+h8{
+  font-size: 5.6rem;
+  font-weight: 900;
+  
+
+}
+.h8-header{
+  color: #ec5826;
+}
+h9{
+  margin-bottom: 2.4rem;
+}
+.contain-from{
+  padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+}
+.hero-contain-btn{
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+}
+input , select{
+font-family: inherit;
+font-size: inherit;
+border: none;
+}
+.paragrap-1{
+  margin-bottom: 2rem;
+}
+.list-icon{
+  margin-top: 1.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.8rem;
+}
+.list-icon-a{
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+.list-icon-div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
 
