@@ -224,5 +224,34 @@ border: none;
   align-items: center;
   margin-bottom: 1.2rem;
 }
+.about-us{
+  max-width: 110rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  column-gap: 6rem;
+  align-items: center;
+}
+.paragrap-2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.paragrap-3{
+  margin-bottom: 2.4rem;
+}
+h9,h10,h11{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about-us-ul{
+  list-style: none;
+  margin-bottom: 2.8rem;
+}
+.about-us-ul i {
+  color: #65c178;
+  font-size: 2.4rem;
+  margin-right: 1.2rem;
+}
 
 
