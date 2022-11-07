@@ -270,4 +270,166 @@ h9,h10,h11{
 .about-us-list-img{
   display: grid;
 }
+.services-section{
+  background-color: #f2f2f4;
+}
+.services-section-info{
+  max-width: 110rem;
+  margin: 0 auto;
+  
+  padding-bottom: 7.2rem;
 
+}
+.services-section-header{
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+.paragrap-4{
+  font-size: 2.4rem;
+  color: #65c178;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  padding-top: 12rem;
+}
+.h12-a{
+  color: #ed6436;
+}
+h12{
+  font-size: 5.6rem;
+  font-weight: 900;
+}
+.services-section-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem;
+
+}
+.services-section-list li{
+  background-color: #fff;
+  text-align: center;
+  padding: 4.8rem;
+}
+.services-section-list li img{
+  width: 7.2rem;
+  height: 7.2rem;
+  margin-bottom: 1.6rem;
+}
+h13,h14,h15,h16,h17,h18{
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+.services-section-list li p{
+  margin-bottom: 2.4rem;
+}
+.services-section-list li a {
+  color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.why-us-section{
+  background-color: #fff;
+  max-width: 110rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  column-gap: 6rem;
+  align-items: center;
+}
+.why-us-section-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+}
+.pricing-plan-section{
+  background-color: #f2f2f4;
+}
+.pricing-plan-section-info{
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.pricing-plan-section-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.2rem;
+}
+.pricing-plan-section-list-1{
+  background-image: url(./src/images/price-1.jpg);
+  height: 100%;
+}
+.pricing-plan-section-list-1 div{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-plan-section-list-2{
+  background-image: url(./src/images/price-2.jpg);
+  height: 100%;
+  
+}
+.pricing-plan-section-list-2 div{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.pricing-plan-section-list-3{
+  background-image: url(./src/images/price-3.jpg);
+  height: 100%;
+}
+.pricing-plan-section-list-3 div{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h19,h21{
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+  color: #ec5826;
+  font-weight: 700;
+}
+h20{
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+  color: #59bc6d;
+  font-weight: 700;
+}
+.pricing-plan-section-list-1 div span {
+  font-size: 2.2rem;
+  color: #fff;
+}
+.pricing-plan-section-list-1 div span a{
+  font-size: 5.6rem;
+  font-weight: 800;
+}
+.pricing-plan-section-list-2 div span {
+  font-size: 2.2rem;
+  color: #fff;
+}
+.pricing-plan-section-list-2 div span a{
+  font-size: 5.6rem;
+  font-weight: 800;
+}
+.pricing-plan-section-list-3 div span{
+  font-size: 2.2rem;
+  color: #fff;
+}
+.pricing-plan-section-list-3 div span a{
+  font-size: 5.6rem;
+  font-weight: 800;
+}
+.pricing-plan-section-ul-1,.pricing-plan-section-ul-2,.pricing-plan-section-ul-3{
+  list-style: none;
+  
+  
+}
